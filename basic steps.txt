@@ -1,0 +1,27 @@
+1. Setting Up the Backend (Node.js & Express)///
+
+ -> mkdir student-details-app
+    cd student-details-app
+
+-> npm init -y
+
+-> npm install express mongoose cors body-parser
+
+2. Setting Up the Frontend (React)///
+
+-> npx create-react-app client
+   cd client
+
+-> npm install bootstrap
+
+-> import 'bootstrap/dist/css/bootstrap.min.css';
+
+3. Running the Application ///
+
+-> Start the Backend Server 
+   node server.js
+
+-> Start the Frontend React App
+   cd client
+   npm start
+
